@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="57dp"
+        android:layout_height="61dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtTareas"
+        app:layout_constraintEnd_toStartOf="@+id/txtMajorMinor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTareas"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/beacon"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <TextView
+        android:id="@+id/txtTareas"
+        android:layout_width="246dp"
+        android:layout_height="37dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="16dp" />
+</LinearLayout>
